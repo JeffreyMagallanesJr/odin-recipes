@@ -16,3 +16,32 @@ img {
     width: 100%;
     height: auto;
 }
+
+.home {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.home h1{
+    text-align: center;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.home ul {
+    padding: 0;
+    text-align: center;
+}
+
+.home li {
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    width: auto;
+    background-color: lightblue;
+}
+
+.home li:hover {
+    background-color: aqua;
+}
